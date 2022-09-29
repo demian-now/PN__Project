@@ -46,6 +46,31 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="L.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="L.Designer.cs">
+      <DependentUpon>L.cs</DependentUpon>
+    </Compile>
+    <Compile Include="C.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="C.Designer.cs">
+      <DependentUpon>C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="R.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="R.Designer.cs">
+      <DependentUpon>R.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GV.cs" />
+    <Compile Include="SIZE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SIZE.Designer.cs">
+      <DependentUpon>SIZE.cs</DependentUpon>
+    </Compile>
     <Compile Include="PNDlg.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -54,6 +79,15 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="L.resx">
+      <DependentUpon>L.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="C.resx">
+      <DependentUpon>C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="R.resx">
+      <DependentUpon>R.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="PNDlg.resx">
       <DependentUpon>PNDlg.cs</DependentUpon>
     </EmbeddedResource>
@@ -66,6 +100,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="SIZE.resx">
+      <DependentUpon>SIZE.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

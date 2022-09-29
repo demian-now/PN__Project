@@ -26,6 +26,7 @@
         /// Требуемый метод для поддержки конструктора — не изменяйте 
         /// содержимое этого метода с помощью редактора кода.
         /// </summary>
+       
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
@@ -83,14 +84,15 @@
             // ID_CONS
             // 
             this.ID_CONS.Name = "ID_CONS";
-            this.ID_CONS.Size = new System.Drawing.Size(222, 26);
+            this.ID_CONS.Size = new System.Drawing.Size(224, 26);
             this.ID_CONS.Tag = "";
             this.ID_CONS.Text = "Ввод с клавиатуры";
+            this.ID_CONS.Click += new System.EventHandler(this.ID_CONS_Click);
             // 
             // ID_FILE
             // 
             this.ID_FILE.Name = "ID_FILE";
-            this.ID_FILE.Size = new System.Drawing.Size(222, 26);
+            this.ID_FILE.Size = new System.Drawing.Size(224, 26);
             this.ID_FILE.Text = "Ввод из файла";
             // 
             // ID_RED
