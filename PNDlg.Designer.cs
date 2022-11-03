@@ -54,7 +54,7 @@
             this.менюToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 28);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 30);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -69,7 +69,7 @@
             this.ID_INTERNET,
             this.ID_EXIT});
             this.менюToolStripMenuItem.Name = "менюToolStripMenuItem";
-            this.менюToolStripMenuItem.Size = new System.Drawing.Size(65, 24);
+            this.менюToolStripMenuItem.Size = new System.Drawing.Size(65, 26);
             this.менюToolStripMenuItem.Text = "Меню";
             // 
             // описаниеToolStripMenuItem
@@ -92,8 +92,9 @@
             // ID_FILE
             // 
             this.ID_FILE.Name = "ID_FILE";
-            this.ID_FILE.Size = new System.Drawing.Size(222, 26);
+            this.ID_FILE.Size = new System.Drawing.Size(224, 26);
             this.ID_FILE.Text = "Ввод из файла";
+            this.ID_FILE.Click += new System.EventHandler(this.ID_FILE_Click);
             // 
             // ID_RED
             // 
