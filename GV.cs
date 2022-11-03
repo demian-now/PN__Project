@@ -6,7 +6,7 @@ namespace PN
 {
     class GV
     {
-        public static int nv, nr, nc, nl;
+        public static int nv, nr, nc, nl, k;
         public static int M = 100, MR = 50, MC = 20, ML = 20;
 
         public static int[,] in_r = new int[MR + 1, 2];
