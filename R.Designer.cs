@@ -52,7 +52,6 @@
             // 
             this.m_nextr.Location = new System.Drawing.Point(184, 35);
             this.m_nextr.Name = "m_nextr";
-            this.m_nextr.ReadOnly = true;
             this.m_nextr.Size = new System.Drawing.Size(100, 22);
             this.m_nextr.TabIndex = 1;
             // 

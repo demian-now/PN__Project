@@ -194,9 +194,9 @@
             this.label4.AutoSize = true;
             this.label4.Location = new System.Drawing.Point(119, 151);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(95, 16);
+            this.label4.Size = new System.Drawing.Size(109, 16);
             this.label4.TabIndex = 17;
-            this.label4.Text = "Транзисторы";
+            this.label4.Text = "Индуктивности";
             // 
             // label5
             // 

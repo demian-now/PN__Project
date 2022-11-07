@@ -15,6 +15,7 @@ namespace PN
         public C()
         {
             InitializeComponent();
+            m_nextc.Text = "1";
         }
 
         private void IDC_NEXTC_BUTTON_Click(object sender, EventArgs e)
