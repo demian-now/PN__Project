@@ -92,7 +92,7 @@
             // ID_FILE
             // 
             this.ID_FILE.Name = "ID_FILE";
-            this.ID_FILE.Size = new System.Drawing.Size(224, 26);
+            this.ID_FILE.Size = new System.Drawing.Size(222, 26);
             this.ID_FILE.Text = "Ввод из файла";
             this.ID_FILE.Click += new System.EventHandler(this.ID_FILE_Click);
             // 
@@ -117,12 +117,14 @@
             this.ID_F.Name = "ID_F";
             this.ID_F.Size = new System.Drawing.Size(306, 26);
             this.ID_F.Text = "Вид частотной характеристики";
+            this.ID_F.Click += new System.EventHandler(this.ID_F_Click);
             // 
             // ID_IO
             // 
             this.ID_IO.Name = "ID_IO";
             this.ID_IO.Size = new System.Drawing.Size(306, 26);
             this.ID_IO.Text = "Вх/вых узлы";
+            this.ID_IO.Click += new System.EventHandler(this.ID_IO_Click);
             // 
             // ID_CALC
             // 
@@ -144,18 +146,21 @@
             this.ID_PRIV.Name = "ID_PRIV";
             this.ID_PRIV.Size = new System.Drawing.Size(247, 26);
             this.ID_PRIV.Text = "Собственный браузер";
+            this.ID_PRIV.Click += new System.EventHandler(this.ID_PRIV_Click);
             // 
             // ID_SYS
             // 
             this.ID_SYS.Name = "ID_SYS";
             this.ID_SYS.Size = new System.Drawing.Size(247, 26);
             this.ID_SYS.Text = "Системный браузер";
+            this.ID_SYS.Click += new System.EventHandler(this.ID_SYS_Click);
             // 
             // ID_INTERNET
             // 
             this.ID_INTERNET.Name = "ID_INTERNET";
             this.ID_INTERNET.Size = new System.Drawing.Size(227, 26);
             this.ID_INTERNET.Text = "Интернет";
+            this.ID_INTERNET.Click += new System.EventHandler(this.ID_INTERNET_Click);
             // 
             // ID_EXIT
             // 

@@ -57,6 +57,14 @@ namespace PN
                 ofile.ShowDialog(this);
                 ofile.Dispose();
             }
+
+            F f = new F();
+            f.ShowDialog(this);
+            f.Dispose();
+
+            IO io = new IO();
+            io.ShowDialog(this);
+            io.Dispose();
         }
 
         private void ID_RED_Click(object sender, EventArgs e)
@@ -80,6 +88,44 @@ namespace PN
                 return;
             }
             file.Dispose();
+        }
+
+        private void ID_F_Click(object sender, EventArgs e)
+        {
+            F f = new F();
+            f.ShowDialog(this);
+            f.Dispose();
+        }
+
+        private void ID_IO_Click(object sender, EventArgs e)
+        {
+            IO io = new IO();
+            io.ShowDialog(this);
+            io.Dispose();
+        }
+
+        private void ID_PRIV_Click(object sender, EventArgs e)
+        {
+            GV.flag = false;
+        }
+
+        private void ID_SYS_Click(object sender, EventArgs e)
+        {
+            GV.flag = true;
+        }
+
+        private void ID_INTERNET_Click(object sender, EventArgs e)
+        {
+            if (!GV.flag)
+            {
+                INT cint = new INT();
+                cint.Show(this);
+            }
+            else
+            {
+                System.Diagnostics.Process.Start("iexplore.exe", "http://127.0.0.1/MF/Int3d.htm");
+            }
+
         }
     }
 }

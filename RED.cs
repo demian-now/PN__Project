@@ -99,7 +99,18 @@ namespace PN
                     m_nm2.Text = GV.in_r[GV.k, 1].ToString();
                     m_z1.Text = GV.z_r[GV.k].ToString();
                     break;
-                    //...
+                case 1:
+                    m_np2.Text = GV.in_c[GV.k, 0].ToString();
+                    m_nm2.Text = GV.in_c[GV.k, 1].ToString();
+                    m_z1.Text = GV.c[GV.k].ToString();
+                    break;
+                case 2:
+                    m_np2.Text = GV.in_l[GV.k, 0].ToString();
+                    m_nm2.Text = GV.in_l[GV.k, 1].ToString();
+                    m_z1.Text = GV.l[GV.k].ToString();
+                    break;
+                default:
+                    break;
             }
             OK.Focus();
         }
